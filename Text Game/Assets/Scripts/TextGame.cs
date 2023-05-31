@@ -12,11 +12,12 @@ public class TextGame : MonoBehaviour
     // ALGORYTM -> wyszukiwanie binarne                    \
     int min = 1;
     int max = 1000;
-    int shoot = 500;
+    int shoot = 500; 
 
     void Start()
     {
         Debug.Log("Witaj w grze - Pomysl w glowie liczbe od 1 do 1000");
+        max = 1001;
         Debug.Log("Czy twoja liczba jest rowna/wieksza/mniejsza od 500?");
         // print string
         // Nacisnij gona strzalke aby odpowiedziec, ze wieksza
